@@ -1,0 +1,21 @@
+.side-bar{
+	margin-top: 10px;
+	background: rgba(218, 227, 242,0.5);
+	height: 700px;
+	text-align: center;
+}
+.side-link{
+	margin-top: 10px;
+}
+.main{
+	margin-top: 50px;
+}
+.profile img{
+	height: 200px;
+	width: auto;
+	border-radius: 50%;
+	background: black;
+}
+.view{
+	margin-left: 350px;
+}
