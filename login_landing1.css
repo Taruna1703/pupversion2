@@ -16,6 +16,25 @@
 	border-radius: 50%;
 	background: black;
 }
-.view{
+.view, .printbtn{
 	margin-left: 350px;
+}
+.sigcontainer,#print{
+	margin-top: 10px;
+}
+.signature img{
+ height: 100px;
+ width:100px;
+}
+
+.documentimage{
+	height: 1400px;
+	width: 1100px;
+	
+}
+#formdiv{
+	position: relative;
+	height: 500px;
+	width: 500px;
+	margin: auto;
 }
