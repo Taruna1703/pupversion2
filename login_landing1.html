@@ -67,6 +67,7 @@
                 <a class="nav-link side-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
                 <a class="nav-link side-link" id="v-pills-previous-entry-tab" data-toggle="pill" href="#v-pills-previous-entry" role="tab" aria-controls="v-pills-previous-entry" aria-selected="false">Previous Entry</a>
                 <a class="nav-link side-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                <a class="nav-link side-link" id="v-pills-addnew-tab" data-toggle="pill" href="#v-pills-addnew" role="tab" aria-controls="v-pills-addnew" aria-selected="false">Add New Clerk</a>
               </div>
           </div>
           <div class="col-9 main">
@@ -233,6 +234,51 @@
                       </div>
                       <button type="submit" id="changesbutton" class="btn btn-primary btn-lg btn-block" name="changesbutton">Done</button>
                     </form>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-addnew" role="tabpanel" aria-labelledby="v-pills-addnew-tab-tab">
+                        <form class="needs-validation" id="formdiv" novalidate>
+                             <div class="form-row">
+                               <div class="col-md-12 mb-3">
+                                 <label for="validationCustom01">Name</label>
+                                 <input type="text" class="form-control" id="validationCustom01" placeholder="Name"  required>
+                                 <div class="invalid-feedback">
+                                   Please fill a valid  Name
+                                 </div>
+                               </div>
+                              </div> 
+                              
+                             <div class="form-row">
+                               <div class="col-md-12 mb-3">
+                                 <label for="validationCustom03">Password</label>
+                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                                 <div class="invalid-feedback">
+                                   Please provide a valid password.
+                                 </div>
+                               </div>
+                               </div>
+                             <div class="form-row">
+                               <div class="col-md-12 mb-3">
+                                 <div class="custom-file">
+                                   <label class="custom-file-label" for="validatedCustomFile">Choose a profile picture</label>
+                                   <input type="file" class="custom-file-input" id="validatedCustomFile" accept=".png,.jpg,.jpeg" required>    
+                                   <div class="invalid-feedback">Type of file should onlt be png,jpg or jpeg.</div>
+                                 </div>
+                               </div> 
+                             </div>   
+                             <div class="form-row">
+                               <div class="col-md-12 mb-3">
+                                 <div class="custom-file">
+                                   <label class="custom-file-label" for="validatedCustomFile">Choose a file containing your digital signature</label>
+                                   <input type="file" class="custom-file-input" id="validatedCustomFile" accept=".png,.jpg,.jpeg" required>    
+                                   <div class="invalid-feedback">Type of file should onlt be png,jpg or jpeg.</div>
+                                 </div>
+                               </div> 
+                             </div>   
+  
+  
+                             <button class="btn btn-primary" type="submit">Add new user</button>
+                           </form>
+
                     </div>
               </div>
           </div>

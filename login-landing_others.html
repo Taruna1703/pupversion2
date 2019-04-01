@@ -1,6 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
+    <meta http-equiv="Content-Language" content="en,pa">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -67,19 +68,34 @@
                 <a class="nav-link side-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
                 <a class="nav-link side-link" id="v-pills-previous-entry-tab" data-toggle="pill" href="#v-pills-previous-entry" role="tab" aria-controls="v-pills-previous-entry" aria-selected="false">Previously Approved</a>
                 <a class="nav-link side-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                <a class="nav-link side-link" id="v-pills-difform-tab" data-toggle="pill" href="#v-pills-difform" role="tab" aria-controls="v-pills-difform" aria-selected="false">Extra Form</a>
               </div>
           </div>
           <div class="col-9 main">
               <div class="tab-content" id="v-pills-tabContent">
                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                   <h3>Welcome</h3>
-                    <div aria-label="breadcrumb">
-                      <ol class="breadcrumb">
-                        <li class="breadcrumb-item active" aria-current="page">61541231</li>
-                        <li class="view"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">View</button></li>
-                      </ol>
-
-                    </div>
+                   
+                    <table class="table table-striped">
+                     <thead>
+                       <tr>
+                         <th scope="col">#</th>
+                         <th scope="col">Date</th>
+                         <th scope="col">Registration Number</th>
+                         <th scope="col">Type of Examination</th>
+                         <th scope="col"></th>
+                       </tr>
+                     </thead>
+                     <tbody>
+                       <tr>
+                         <th scope="row">1</th>
+                         <td>12.3.2019</td>
+                         <td>211421</td>
+                         <td>Pre Submition</td>
+                         <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">View</button></td>
+                       </tr>                       
+                     </tbody>
+                   </table>
                     <!-- Modal -->
                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                        <div class="modal-dialog" role="document">
@@ -264,6 +280,94 @@
                       </div>
                       <button type="submit" id="changesbutton" class="btn btn-primary btn-lg btn-block" name="changesbutton">Done</button>
                     </form>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-difform" role="tabpanel" aria-labelledby="v-pills-diffform-tab">
+                       <form class="searchregno">
+                          <div class="form-group">
+                             <div class="form-row">
+                              <div class="col-sm-4">
+                                  <input type="search" class="form-control" placeholder="Registration Number">
+                              </div>
+                                <div class="col">
+                                   <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                                </div>
+                               </div>
+                          </div>
+                       </form>
+                       <form>
+                        <div id="printdoc">
+                         <div class="form-group row">
+                            <label for="formGroupExampleInput" class="col-sm-2 col-form-label">ਉਮੀਦਵਾਰ ਦਾ ਨਾਂ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਵਿਭਾਗ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">ਡਿਗਰੀ</label>
+                            <div class="col-sm-10"><input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></div>
+                          </div>
+                          </div>  
+                             <button type="button" class="btn btn-primary" id="print" onclick="printDiv('printdoc')">Print</button>
+                          </form>
+                        
                     </div>
               </div>
           </div>
